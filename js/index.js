@@ -1,23 +1,13 @@
 let num = 3
-
 let a=10
 let b=2
-
-
 let c=15
 let d=2
 let result = c+d
-
-
 let str='Привет Мир!'
-
-
 let str1='Привет, '
 let str2='Мир!'
-
-
 let name ='Adilet'
-
 // let name=document.getElementById("name")
 // let lastName=document.getElementById("lastName")
 // let age=document.getElementById("age").value;
@@ -34,19 +24,18 @@ const student = {
 
 function register() {
    alert("Регистрация прошла!")
-   console.log(alert(num))
+   alert(num)
+   alert(a+b)
+alert(a-b)
+alert(a*b)
+alert(a/b)
 
-   console.log(alert(a+b))
-console.log(alert(a-b))
-console.log(alert(a*b))
-console.log(alert(a/b))
+alert(result)
 
-console.log(alert(result))
+alert(str)
 
-console.log(alert(str))
+alert(str1+str2)
 
-console.log(alert(str1+str2))
-
-console.log(alert(str1+name))
+alert(str1+name)
 
 } 
