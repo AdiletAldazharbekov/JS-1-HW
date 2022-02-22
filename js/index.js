@@ -23,11 +23,11 @@ console.log(alert(str1+str2))
 let name ='Adilet'
 console.log(alert(str1+name))
 
-let name=document.getElementById("name")
-let lastName=document.getElementById("lastName")
-let age=document.getElementById("age").value;
-let durationMonth=document.getElementById("durationMonth")
-let course=document.getElementById("course")
+// let name=document.getElementById("name")
+// let lastName=document.getElementById("lastName")
+// let age=document.getElementById("age").value;
+// let durationMonth=document.getElementById("durationMonth")
+// let course=document.getElementById("course")
 
 const student = {
     name: name,
