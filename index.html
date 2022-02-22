@@ -14,24 +14,45 @@
 		<link rel="stylesheet" href="./css/index.css" />
 	</head>
 	<body>
-		<div class="container m-auto">
-			<div class="row m-3">
-				<div class="col-5">
-					<input type="text" placeholder="Name" />
-					<input type="text" placeholder="Lastname" />
-					<input type="number" placeholder="Age" />
+		<div class="container col-3 col-md-3 col-sm-6">
+			<form>
+				<div class="form-group mb-3">
+					<label for="name">Введите Имя</label>
+					<input id="name" type="text" class="form-control border-success" />
 				</div>
-				<div class="col-2">
-					<input type="text" placeholder="Course" />
-					<input type="number" placeholder="Duration month" />
+				<div class="form-group mb-3">
+					<label for="lastName">Введите Фамилию</label>
+					<input id="lastName" type="text" class="form-control border-dark" />
 				</div>
-			</div>
-			<div class="row">
-				
-					<button>Регистрация</button>
-                    <button>Отмена</button>
-				
-			</div>
+				<div class="form-group mb-3">
+					<label for="age">Ваш возраст</label>
+					<input id="age" type="number" class="form-control border-primary" />
+				</div>
+				<div class="form-group mb-3">
+					<label for="durationMonth"
+						>Продолжительность обучения</label
+					>
+					<input id="durationMonth" type="number" class="form-control border-warning" />
+				</div>
+				<div class="form-group mb-3">
+					<label class="text-danger fw-bold" for="lastName">Какие курсы вас интересуют?</label>
+					<div class="form-group">
+						<input type="checkbox" /><label class="ms-1" for="lastName"
+							>JavaScript</label
+						>
+						<input class="ms-3"  type="checkbox" /><label class="ms-1" for="lastName"
+							>Phyton</label
+						>
+						<input class="ms-3" type="checkbox" /><label class="ms-1" for="lastName"
+							>UX/UI</label
+						>
+					</div>
+				</div>
+				<div class="form-group">
+					<button class="btn btn-outline-primary">Регистрация</button>
+					<button class="btn btn-outline-danger" type="reset">Отмена</button>
+				</div>
+			</form>
 		</div>
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
