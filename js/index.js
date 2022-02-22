@@ -30,12 +30,12 @@ let durationMonth=3
 
 console.log(alert(str1+name))
 
-const student {
+const student = {
     name: name,
     lastName: lastName,
     age: age,
     course: course,
-    durationMonth: durationMonth
-}
+    durationMonth: durationMonth,
+};
 
 console.log(student)
