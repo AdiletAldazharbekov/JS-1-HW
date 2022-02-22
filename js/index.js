@@ -1,5 +1,4 @@
 // let num = 3
-
 // console.log(alert(num))
 
 // let a=10
@@ -17,18 +16,19 @@
 // let str='Привет Мир!'
 // console.log(alert(str))
 
-// let str1='Hello, '
-// let str2='World!'
-
+// let str1='Привет, '
+// let str2='Мир!'
 // console.log(alert(str1+str2))
 
 // let name ='Adilet'
+// console.log(alert(str1+name))
+
+
 // let lastName='Aldazharbekov'
 // let age=37
 // let course='JavaScript'
 // let durationMonth=3
 
-// console.log(alert(str1+name))
 
 // const student = {
 //     name: name,
